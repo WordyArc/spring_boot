@@ -2,7 +2,7 @@ version: '2'
 
 services:
   app:
-    image: 'spring_boot:1.0'
+    image: 'spring_boot'
     build:
       context: .
     container_name: app
